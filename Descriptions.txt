@@ -1,0 +1,7 @@
+### Milestone_2_Sam ###
+Last update: 04/11
+Content:
+  - loading Movie.metadata and character.metadata
+  - Cleaning:
+    - drop Nan
+    - DROP DATE: one of the date is 
