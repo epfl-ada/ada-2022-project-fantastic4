@@ -1,7 +1,15 @@
+Little file to describe what you did in your code, so that we can take pieces of codes what we are interested in.
+
 ### Milestone_2_Sam ###
 Last update: 04/11
 Content:
   - loading Movie.metadata and character.metadata
   - Cleaning:
     - drop Nan
-    - DROP DATE: one of the date is 
+    - CHANGE DATE: one of the date (1010-12-02) is in fact 2010-12-02 (approved by Google)
+    - functions with friendly format for Movie_languages, Movie_countries, Movie_genres
+  - Visualization:
+    Nothing interesting
+
+
+### Your turn ###
