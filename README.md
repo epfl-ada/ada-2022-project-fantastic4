@@ -30,3 +30,34 @@ Another important point will be to take care of potential counfounders or intera
 
 
 ## Team Organization :raised_hands:
+
+<table class="tg" style="undefined;table-layout: fixed; width: 342px">
+<colgroup>
+<col style="width: 164px">
+<col style="width: 178px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-0lax">Teammate</th>
+    <th class="tg-0lax">Tasks</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Teammate 1</td>
+    <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Teammate 2</td>
+    <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Teammate 3</td>
+    <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Teammate 4</td>
+    <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
+  </tr>
+</tbody>
+</table>
