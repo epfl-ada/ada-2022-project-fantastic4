@@ -61,3 +61,8 @@ Another important point will be to take care of potential counfounders or intera
   </tr>
 </tbody>
 </table>
+
+# How to read the notebooks
+There are two notebooks for this Milestone 2.
+- Handling of data.ipynb: this notebook aims at loading, cleaning, organizing and pickling the data mainly.
+- Exploration of data.ipynb: this notebook is meant for all the future analysis. For now, it only contains the exploration of data. It uses the data saved by the previous file.
