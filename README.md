@@ -44,19 +44,19 @@ Another important point will be to take care of potential counfounders or intera
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax">Teammate 1</td>
+    <td class="tg-0lax">:cat:</td>
     <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Teammate 2</td>
+    <td class="tg-0lax">:unicorn:</td>
     <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Teammate 3</td>
+    <td class="tg-0lax">:bear:</td>
     <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Teammate 4</td>
+    <td class="tg-0lax">:fox_face:</td>
     <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
   </tr>
 </tbody>
