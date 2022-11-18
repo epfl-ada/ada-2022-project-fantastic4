@@ -4,9 +4,9 @@
 _Movies are often criticized for not accurately representing the population. For example, historically, most movie characters have been male. The women that are present are shown mainly in stereotyped roles such as housewives and secretaries. The goal of this project is to look at diversity in movies over time and see how it influences a movies success using the CMU Movie Summary Corpus. The first step is to analyze the diversity in the movies, focusing primarily on gender. The next step would be to analyze how people are represented. This would be done using sentiment analysis on the mentions of characters in the plot summary to see whether specific groups are portrayed in a more positive/negative light than others. Finally, we will take all of this into account when trying to establish if what we learned influences the rating as well as revenue of a movie._
 
 ## Research Questions :grey_question:
-- **Question 1:** How diverse are the actors in movies? (Focus on gender) How has this evolved over time? Does it change depending on genre? Movie language/place?
+- **Question 1:** How diverse are the actors genders in movies? How has this evolved over time? Does it change depending on genre? Movie language/place?
 - **Question 2:** Are the mentions of different characters more positive? What words are associated with male/female characters?
-- **Question 3:** Can we use what we learned in the previous questions to make any connection to the success of a movie?
+- **Question 3:** Can we use what we learned to make any connection to the success of a movie?
 
 ## Additional Datasets :file_cabinet:
 - To enrich our CMU dataset, we decided to use the IMDb dataset containing information on about 50’000 movies. The advantage of this dataset is that it contains user ratings. But the IDs do not match the Wikipedia or Freebase IDs, which means that to merge these two datasets, we will have to match movies according to their title, which might lead to some matching mistakes. To avoid this, we will use the movie release date as an additional marker. The IMDb dataset also contains all the different title versions of the movie in addition to the original title, so we could compare the CMU movies title with all the title versions provided in the IMDb dataset and filter out the unnecessary datapoints. 
