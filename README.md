@@ -18,6 +18,13 @@ We will plot the evolution of the different distributions over time. We will be 
 
 ### Method Question 2
 In order to answer Question 2, we first lemmatize plot summaries and sort the sentences into groups that reference masculine or feminine pronouns. If a character name appears and is specified in the character dataset, the gender ot the actor playing it is also taken into account to put the sentence in a group. It is important to note that a sentence can appear in both categories if feminine and masculine pronouns/character names appear. We will then analyze the sentiments and words used in these two categories to observe the difference between them.
+Below you can see the wordclouds with the words that are most ofen used in connection with female (left) and male (right) characters:
+
+<p align="center">
+  <img src="./Images/female_words.tiff" alt="most used words to decribe females" width="300"/>
+  <img src="./Images/male_words.tiff" alt="most used words to decribe males" width="300"/>
+</p>
+
 ### Method Question 3
 To answer this question, we use both ratings and revenues as measures of success. Since revenue is biased by the time period and the movie’s budget, we will adapt the revenue over time by fitting a linear regression of the average or median revenues of movies, where x will be the time in years and y the average revenue. We will include movie budget, a potential confounder, in the regression model. We also need to enrich our CMU dataset with IMDb and movie stats to add ratings and budget respectively.
 To relate the previous questions findings with this question, we can look at the revenue and rating relative to the positivity of their mentions of characters and depending on special features we might discover in question 1, we could relate them to the success of a movie.
