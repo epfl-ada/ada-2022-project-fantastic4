@@ -16,10 +16,10 @@ _Movies are often criticized for not accurately representing the population. For
 ### Method Question 1
 We will plot the evolution of the different distributions over time. We will be particularly careful on the period of aggregation in order to have significant results, and more generally the number of datapoints available per variable (e.g number of films per genre). Another important point will be to take care of potential confounders or interactions between variables. One such example is including the budget in the analysis.
 
-### Question 2
+### Method Question 2
 In order to answer Question 2, we plan to replace the character names in the plot summaries by “he” or “her” in order to preserve the characters gender. Further, we will lemmatize the plot summaries and sort the sentences into groups that reference masculine or feminine pronouns. It is important to note that a sentence can appear in both categories if it references both. We will then analyze the sentiments and words used in these two categories to observe the difference between them.
 
-### Question 3
+### Method Question 3
 To answer this question, we use both ratings and revenues as measures of success. Since revenue is biased by the time period and the movie’s budget, we will adapt the revenue over time by fitting a linear regression of the average or median revenues of movies, where x will be the time in years and y the average revenue. For this regression, we will remove confounders such as movie budget by taking them into account in the model. We also need to enrich our CMU dataset with IMDb and movie stats to add ratings and budget respectively.
 To relate the previous questions findings with this question, we can look at the revenue and rating relative to the positivity of their mentions of characters and depending on special features we might discover in question 1, we could relate them to the success of a movie.
 
