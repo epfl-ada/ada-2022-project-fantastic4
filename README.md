@@ -78,7 +78,7 @@ Another important point will be to take care of potential counfounders or intera
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax">Task</td>
+    <th class="tg-0lax">Task</th>
     <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
     <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
     <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
