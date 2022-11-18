@@ -21,8 +21,8 @@ In order to answer Question 2, we first lemmatize plot summaries and sort the se
 Below you can see the wordclouds with the words that are most ofen used in connection with female (left) and male (right) characters:
 
 <p align="center">
-  <img src="./Images/female_words.tiff" alt="most used words to decribe females" width="300"/>
-  <img src="./Images/male_words.tiff" alt="most used words to decribe males" width="300"/>
+  <img src="./Images/female.png" alt="most used words to decribe females" width="300"/>
+  <img src="./Images/male.png" alt="most used words to decribe males" width="300"/>
 </p>
 
 ### Method Question 3
