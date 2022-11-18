@@ -30,7 +30,7 @@ To answer this question, we use both ratings and revenues as measures of success
 To relate the previous questions findings with this question, we can look at the revenue and rating relative to the positivity of their mentions of characters and depending on special features we might discover in question 1, we could relate them to the success of a movie.
 
 
-## Proposed timeline :clock2:
+## Proposed Timeline :clock2:
 - 25/11/22: Focus on homework 2 and preprocessing data done
 - 02/12/22: **Homework 2 deadline**
 - 02/12/22: Finish with data handling pipeline and data exploration
@@ -73,7 +73,7 @@ To relate the previous questions findings with this question, we can look at the
 </table>
 
 
-## How to read the notebooks :file_folder:
+## How to Read the Notebooks :file_folder:
 There are two notebooks for this Milestone 2.
 - _Handling of data.ipynb_: This notebook aims to load, clean, organize and pickle the data. As this notebook can take a while to run, we disabled some functions, and just printed the results.
 - _Exploration of data.ipynb_: This notebook is meant for all future analysis. For now, it only contains the exploration of data. It uses the preprocessed data produced by the previous file.
