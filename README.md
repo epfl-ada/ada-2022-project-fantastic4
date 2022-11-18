@@ -4,38 +4,33 @@
 _Movies are often criticized for not accurately representing the population. For example, historically, most movie characters have been male. The women that are present are shown mainly in stereotyped roles such as housewives and secretaries. The goal of this project is to look at diversity in movies over time and see how it influences a movies success using the CMU Movie Summary Corpus. The first step is to analyze the diversity in the movies, focusing primarily on gender. The next step would be to analyze how people are represented. This would be done using sentiment analysis on the mentions of characters in the plot summary to see whether specific groups are portrayed in a more positive/negative light than others. Finally, we will take all of this into account when trying to establish if what we learned influences the rating as well as revenue of a movie._
 
 ## Research Questions :grey_question:
-- How diverse are the actors in movies? (Focus on gender) How has this evolved over time? Does it change depending on genre? Movie language/place?
-- Are the mentions of different characters more positive? What words are associated with male/female characters?
-- Can we use what we learned in the previous questions to make any connection to the success of a movie?
+- **Question 1:** How diverse are the actors in movies? (Focus on gender) How has this evolved over time? Does it change depending on genre? Movie language/place?
+- **Question 2:** Are the mentions of different characters more positive? What words are associated with male/female characters?
+- **Question 3:** Can we use what we learned in the previous questions to make any connection to the success of a movie?
 
-## Additional Datasets :fax:
-To enrich our CMU dataset, we considered using the IMDb dataset containing information about 50’000 movies. The advantage of this dataset is that it contains ratings from users which we do not have with the CMU dataset. But this dataset presents some challenges: the IMDb movie IDs do not match the Wikipedia or Freebase IDs, which means that to merge these two datasets, we will have to match movies according to their title, which might lead to some matching mistakes if different movies have the same title or if the same movies were registered in the dataset with different titles. To partially counter this, we considered using the movie release date in addition to compare if movies are matching. Also, the IMDb dataset contains all the different title versions of the movie in addition to the original title, so we could compare the CMU movies title with all the title versions provided in the IMDb dataset.
-Further, we discovered the “movie-stats” dataset on GitHub (https://github.com/danielgrijalva/movie-stats) that processed 6820 movies from IMDb dataset between 1986 and 2016 by adding information on budget of the movies when known, an information that we are looking for to answer our third research question dealing with movies success. The issue with this dataset is that it contains only about 7000 movies so it will considerably reduce our original dataset. 
-
+## Additional Datasets :file_cabinet:
+- To enrich our CMU dataset, we decided to use the IMDb dataset containing information on about 50’000 movies. The advantage of this dataset is that it contains user ratings. But the IDs do not match the Wikipedia or Freebase IDs, which means that to merge these two datasets, we will have to match movies according to their title, which might lead to some matching mistakes. To avoid this, we will use the movie release date as an additional marker. The IMDb dataset also contains all the different title versions of the movie in addition to the original title, so we could compare the CMU movies title with all the title versions provided in the IMDb dataset and filter out the unnecessary datapoints. 
+- Further, we discovered the “movie-stats” dataset on GitHub (https://github.com/danielgrijalva/movie-stats) that processed 6820 movies from IMDb dataset between 1986 and 2016 by adding information on budget of the movies, a vital piece of information, as it is a possible confounder for our 3rd Question. The issue with this dataset is that it is quite small and would thus reduce the amount of data we could work with.
 
 ## Methods :mag:
-### Question 1
-We will plot the evolution of the different distributions over time. We will be particularly careful on the period of aggregation in order to have significant results, and more generally the number of data available per variable (e.g number of films per genre).
-
-Another important point will be to take care of potential counfounders or interaction between variables (e.g maybe there are more fantastic movies taking place in the U.S than in Europe).
+### Method Question 1
+We will plot the evolution of the different distributions over time. We will be particularly careful on the period of aggregation in order to have significant results, and more generally the number of datapoints available per variable (e.g number of films per genre). Another important point will be to take care of potential confounders or interactions between variables. One such example is including the budget in the analysis.
 
 ### Question 2
+In order to answer Question 2, we plan to replace the character names in the plot summaries by “he” or “her” in order to preserve the characters gender. Further, we will lemmatize the plot summaries and sort the sentences into groups that reference masculine or feminine pronouns. It is important to note that a sentence can appear in both categories if it references both. We will then analyze the sentiments and words used in these two categories to observe the difference between them.
+
 ### Question 3
-Definition of success: Rating and Revenue, how we adapted revenue over time and removed confounders such as movie budget
-This is where we talk about adding more data to make our view more complete
-Match the datasets on the title, add the freebase ID
-Look at the revenue and rating relative to the positivity of their mentions of characters
-We need to try to make a link with question 1 if we find anything interesting there
-Compare positivity of character mention to rating of movie
+To answer this question, we use both ratings and revenues as measures of success. Since revenue is biased by the time period and the movie’s budget, we will adapt the revenue over time by fitting a linear regression of the average or median revenues of movies, where x will be the time in years and y the average revenue. For this regression, we will remove confounders such as movie budget by taking them into account in the model. We also need to enrich our CMU dataset with IMDb and movie stats to add ratings and budget respectively.
+To relate the previous questions findings with this question, we can look at the revenue and rating relative to the positivity of their mentions of characters and depending on special features we might discover in question 1, we could relate them to the success of a movie.
 
 
-## Proposed timeline :clock10:
+## Proposed timeline :clock2:
 - 25/11/22: Focus on homework 2 and preprocessing data done
-- 02/12/22: Homework 2 deadline
+- 02/12/22: **Homework 2 deadline**
 - 02/12/22: Finish with data handling pipeline and data exploration
 - 09/12/22: Website ready to be filled with our story and preliminary data story structure
 - 16/12/22: All data handling and analysis done, after that we will focus on writing the data story and making it visually appealing on the website
-- 23/12/22: Project M3 deadline
+- 23/12/22: **Project M3 deadline**
 
 
 ## Team Organization :raised_hands:
@@ -72,7 +67,7 @@ Compare positivity of character mention to rating of movie
 </table>
 
 
-## How to read the notebooks
+## How to read the notebooks :file_folder:
 There are two notebooks for this Milestone 2.
-- _Handling of data.ipynb_: this notebook aims at loading, cleaning, organizing and pickling the data. As this notebook can take a while to run, we disabled some functions, and just printed the results.
-- _Exploration of data.ipynb_: this notebook is meant for all the future analysis. For now, it only contains the exploration of data. It uses the data saved by the previous file.
+- _Handling of data.ipynb_: This notebook aims to load, clean, organize and pickle the data. As this notebook can take a while to run, we disabled some functions, and just printed the results.
+- _Exploration of data.ipynb_: This notebook is meant for all future analysis. For now, it only contains the exploration of data. It uses the preprocessed data produced by the previous file.
