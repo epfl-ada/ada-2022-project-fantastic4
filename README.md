@@ -62,6 +62,31 @@ Another important point will be to take care of potential counfounders or intera
 </tbody>
 </table>
 
+<table class="tg" style="undefined;table-layout: fixed; width: 342px">
+<colgroup>
+<col style="width: 164px">
+<col style="width: 178px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-0lax">Teammate</th>
+    <th class="tg-0lax">:cat:</th>
+    <th class="tg-0lax">:unicorn:</th>
+    <th class="tg-0lax">:bear:</th>
+    <th class="tg-0lax">:fox_face:</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Task</td>
+    <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
+    <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
+    <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
+    <td class="tg-0lax">Task 1<br><br>Task 2<br><br>Task 3</td>
+  </tr>
+</tbody>
+</table>
+
 # How to read the notebooks
 There are two notebooks for this Milestone 2.
 - _Handling of data.ipynb_: this notebook aims at loading, cleaning, organizing and pickling the data. As some this notebook can take a while to run, we disabled some functions, and just printed the results.
