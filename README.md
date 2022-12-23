@@ -34,7 +34,7 @@ To quantify this, we went through the movie summaries to find words that if they
 ### Method Question 3
 We first defined the success of a movie and used both ratings and revenues as its measures. Then, given everything we learned in the previous analysis, and the new data we obtained with the additional datasets, we performed a matching study to remove most confounding variables. Defining our control and treated groups, and constructing a distance between films, and finally matching the films, led us to very interesting conclusions. 
 
-## Team Organization :raised_hands:
+## Accomplished Tasks :raised_hands:
 
 <table class="tg" style="undefined;table-layout: fixed; width: 342px">
 <colgroup>
@@ -50,19 +50,19 @@ We first defined the success of a movie and used both ratings and revenues as it
 <tbody>
   <tr>
     <td class="tg-0lax">:cat:</td>
-    <td class="tg-0lax">Continue analyzing the dataset with respect to Question 3<br><br>Finish the merge the of the CMU dataset with additional datasets and explore these datasets<br><br>Take part in data story writing</td>
+    <td class="tg-0lax">Analyzed the dataset with respect to Question 3<br><br>Finished the merge the of the CMU dataset with additional datasets and explored these datasets<br><br>Took part in data story writing</td>
   </tr>
   <tr>
     <td class="tg-0lax">:unicorn:</td>
-    <td class="tg-0lax">Continue analyzing the dataset with respect to Question 3<br><br>Produce the final data visualizations to be used on the website<br><br>Write the data story texts to communicate and explain the results<br><br>Write the README</td>
+    <td class="tg-0lax">Analyzed the dataset with respect to Question 3<br><br>Produced the data visualizations on the website<br><br>Wrote the data story texts to communicate and explain the results<br><br>Updated the README</td>
   </tr>
   <tr>
     <td class="tg-0lax">:bear:</td>
-    <td class="tg-0lax">Continue analyzing the dataset with respect to Questions 2 and 3<br><br>Website for data presentation<br><br>Words clustering using NLP and initial visualizations<br><br>Sentiment analysis and creation of initial visualizations</td>
+    <td class="tg-0lax">Analyzed the dataset with respect to Questions 2 and 3<br><br>Made the website<br><br>Did the word clustering using NLP and made initial visualizations<br><br>Did the sentiment analysis and made initial visualizations</td>
   </tr>
   <tr>
     <td class="tg-0lax">:fox_face:</td>
-    <td class="tg-0lax">Continue analyzing the dataset with respect to Questions 1 and 3<br><br>Sentiment analysis and creation of initial visualizations</td>
+    <td class="tg-0lax">Analyzed the dataset with respect to Questions 1 and 3<br><br> Did sentiment analysis and made initial visualizations</td>
   </tr>
 </tbody>
 </table>
@@ -74,3 +74,4 @@ There are four notebooks for Milestone 3.
 - _DataAnalysis.ipynb_: This notebook is meant for all analysis except NLP part. It contains all the studies corresponding to questions 1 and 3.
 - _Handling NLP.ipynb_: This notebook prepares the data for the NLP analysis
 - _Exploration NLP.ipynb_: This notebook contains all the NLP corresponding to question 2
+- _Visualizations.ipynb_: This notebook contains the code to make the plots in our data story
