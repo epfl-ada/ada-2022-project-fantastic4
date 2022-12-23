@@ -22,12 +22,7 @@ These observations proved useful for question 3, as they gave us a glimpse of th
 
 ### Method Question 2
 In order to answer Question 2, we first lemmatize plot summaries and sort the sentences into groups that reference masculine or feminine pronouns. If a character name appears and is specified in the character dataset, the gender of the actor playing it is also considered when categorizing the sentences. It is important to note that a sentence can appear in both categories if feminine and masculine pronouns/character names appear. We will then analyze the sentiments and words used in these two categories to observe the difference between them.
-Below you can see the word clouds with the words that are most often used in connection with female (left) and male (right) characters:
-
-<p align="center">
-  <img src="./Images/female.png" alt="most used words to decribe females" width="300"/>
-  <img src="./Images/male.png" alt="most used words to decribe males" width="300"/>
-</p>
+Below you can see the word clouds with the words that are most often used in connection with female and male characters.
 
 To quantify this, we went through the movie summaries to find words that if they are found in a sentence the sentence has the highest possible probability to be male or female. Check out our data story to see the (unsurprising) results.
 
