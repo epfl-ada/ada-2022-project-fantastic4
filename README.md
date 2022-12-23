@@ -3,7 +3,7 @@
 Check our [website](https://pierreancey.github.io/) to read our story !
 
 ## Abstract :memo:
-_Movies are often criticized for not accurately representing the population. For example, historically, most movie characters have been male. The women that are present are shown mainly in stereotyped roles such as housewives and secretaries. The goal of this project is to look at diversity in movies over time and see how it influences a movies success using the CMU Movie Summary Corpus. The first step is to analyze the diversity in the movies, focusing primarily on gender. The next step would be to analyze how people are represented. This would be done using sentiment analysis on the mentions of characters in the plot summary to see whether specific groups are portrayed in a more positive/negative light than others. Finally, we will take all of this into account when trying to establish if what we learned influences the rating as well as revenue of a movie._
+_Movies are often criticized for not accurately representing the population. For example, historically, most movie characters have been male. The women that are present are shown mainly in stereotyped roles such as housewives and secretaries. The goal of this project is to look at diversity in movies over time and see how it influences a movies success using the CMU Movie Summary Corpus. The first step is to analyze the diversity in the movies, focusing primarily on gender. The next step was to analyze how people are represented. This was done using sentiment analysis on the mentions of characters in the plot summary to see whether specific groups are portrayed in a more positive/negative light than others. Finally, we took all of this into account when trying to establish if what we learned influences the rating as well as revenue of a movie._
 
 ## Research Questions :grey_question:
 - **Question 1:** How diverse are the actors genders in movies? How has this evolved over time? Does it change depending on genre? Movie language/place?
@@ -18,6 +18,8 @@ _Movies are often criticized for not accurately representing the population. For
 ### Method Question 1
 We will plot the evolution of the different distributions over time. We will be particularly careful on the period of aggregation in order to have significant results, and more generally the number of datapoints available per variable (e.g number of films per genre). Another important point will be to take care of potential confounders or interactions between variables. One such example is including the budget in the analysis.
 
+**New:** We plot several distributions over time to study the evolution of women's place in films. We also study the inequalities between different movie genres, or countries and even languages. All the observations are usefull for question 3, as they gave us a glimpse on the trends, but also informed us of major confounders!
+
 ### Method Question 2
 In order to answer Question 2, we first lemmatize plot summaries and sort the sentences into groups that reference masculine or feminine pronouns. If a character name appears and is specified in the character dataset, the gender ot the actor playing it is also taken into account to put the sentence in a group. It is important to note that a sentence can appear in both categories if feminine and masculine pronouns/character names appear. We will then analyze the sentiments and words used in these two categories to observe the difference between them.
 Below you can see the wordclouds with the words that are most ofen used in connection with female (left) and male (right) characters:
@@ -31,15 +33,7 @@ Below you can see the wordclouds with the words that are most ofen used in conne
 To answer this question, we use both ratings and revenues as measures of success. Since revenue is biased by the time period and the movie’s budget, we will adapt the revenue over time by fitting a linear regression of the average or median revenues of movies, where x will be the time in years and y the average revenue. We will include movie budget, a potential confounder, in the regression model. We also need to enrich our CMU dataset with IMDb and movie stats to add ratings and budget respectively.
 To relate the previous questions findings with this question, we can look at the revenue and rating relative to the positivity of their mentions of characters and depending on special features we might discover in question 1, we could relate them to the success of a movie.
 
-
-## Proposed Timeline :clock2:
-- 25/11/22: Focus on homework 2 and preprocessing data done
-- 02/12/22: **Homework 2 deadline**
-- 02/12/22: Finish with data handling pipeline and data exploration
-- 09/12/22: Website ready to be filled with our story and preliminary data story structure
-- 16/12/22: All data handling and analysis done, after that we will focus on writing the data story and making it visually appealing on the website
-- 23/12/22: **Project M3 deadline**
-
+**New**: We first define the success of a movie. Then, given everything we learned in the previous analysis, we are able to perform a matching study removing as much as we can confounders. Defining our control and treated groups, and constructing a distance between films, anf finally matching the films, lead us to very interesting conclusions. 
 
 ## Team Organization :raised_hands:
 
