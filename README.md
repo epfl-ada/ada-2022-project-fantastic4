@@ -33,7 +33,7 @@ Below you can see the wordclouds with the words that are most ofen used in conne
 To answer this question, we use both ratings and revenues as measures of success. Since revenue is biased by the time period and the movie’s budget, we will adapt the revenue over time by fitting a linear regression of the average or median revenues of movies, where x will be the time in years and y the average revenue. We will include movie budget, a potential confounder, in the regression model. We also need to enrich our CMU dataset with IMDb and movie stats to add ratings and budget respectively.
 To relate the previous questions findings with this question, we can look at the revenue and rating relative to the positivity of their mentions of characters and depending on special features we might discover in question 1, we could relate them to the success of a movie.
 
-**New**: We first define the success of a movie. Then, given everything we learned in the previous analysis, we are able to perform a matching study removing as much as we can confounders. Defining our control and treated groups, and constructing a distance between films, anf finally matching the films, lead us to very interesting conclusions. 
+**New**: We first define the success of a movie. Then, given everything we learned in the previous analysis, and the new data we obtained with the addtionnal datasets, we are able to perform a matching study removing as much as we can confounders. Defining our control and treated groups, and constructing a distance between films, anf finally matching the films, lead us to very interesting conclusions. 
 
 ## Team Organization :raised_hands:
 
