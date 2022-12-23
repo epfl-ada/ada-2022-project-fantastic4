@@ -45,15 +45,15 @@ We first defined the success of a movie and used both ratings and revenues as it
 <tbody>
   <tr>
     <td class="tg-0lax">Alice :cat:</td>
-    <td class="tg-0lax">Analyzed the dataset with respect to Question 3<br><br>Produced the data visualizations on the website<br><br>Took part in data story writing</td>
+    <td class="tg-0lax"><br>Produced the data visualizations on the website<br><br>Took part in data story writing<br><br>Pickled and added the additional datasets to the repository</td>
   </tr>
   <tr>
     <td class="tg-0lax">Bettina :unicorn:</td>
-    <td class="tg-0lax">Analyzed the dataset with respect to Question 3<br><br>Produced the data visualizations on the website<br><br>Wrote the data story texts to communicate and explain the results<br><br>Updated the README</td>
+    <td class="tg-0lax"><br>Produced the data visualizations on the website<br><br>Wrote the data story texts to communicate and explain the results<br><br>Updated the README</td>
   </tr>
   <tr>
     <td class="tg-0lax">Pierre :bear:</td>
-    <td class="tg-0lax">Analyzed the dataset with respect to Questions 2 and 3<br><br>Made the website<br><br>Did the word clustering using NLP and made initial visualizations<br><br>Did the sentiment analysis and made initial visualizations</td>
+    <td class="tg-0lax">Analyzed the dataset with respect to Questions 2 and 3<br><br>Made the website<br><br>Did the word clustering and sentiment analysis and made initial visualizations</td>
   </tr>
   <tr>
     <td class="tg-0lax">Sam :fox_face:</td>
