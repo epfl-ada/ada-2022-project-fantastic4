@@ -75,5 +75,7 @@ To relate the previous questions findings with this question, we can look at the
 
 ## How to Read the Notebooks :file_folder:
 There are two notebooks for this Milestone 2.
-- _Handling of data.ipynb_: This notebook aims to load, clean, organize and pickle the data. As this notebook can take a while to run, we disabled some functions, and just printed the results.
-- _Exploration of data.ipynb_: This notebook is meant for all future analysis. For now, it only contains the exploration of data. It uses the preprocessed data produced by the previous file.
+- _Handling of data.ipynb_: This notebook aims to load, clean, organize and pickle the data. It also merges the datasets. As this notebook can take a while to run, we disabled some functions, and just printed the results.
+- _DataAnalysis.ipynb_: This notebook is meant for all analysis except NLP part. It contains all the studies corresponding to questions 1 and 3.
+- _Handling NLP.ipynb_: COMPLETE
+- _Exploration NLP.ipynb_: COMPLETE
