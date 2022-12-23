@@ -44,19 +44,19 @@ We first defined the success of a movie and used both ratings and revenues as it
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax">:cat:</td>
+    <td class="tg-0lax">Alice :cat:</td>
     <td class="tg-0lax">Analyzed the dataset with respect to Question 3<br><br>Finished the merge the of the CMU dataset with additional datasets and explored these datasets<br><br>Took part in data story writing</td>
   </tr>
   <tr>
-    <td class="tg-0lax">:unicorn:</td>
+    <td class="tg-0lax">Bettina :unicorn:</td>
     <td class="tg-0lax">Analyzed the dataset with respect to Question 3<br><br>Produced the data visualizations on the website<br><br>Wrote the data story texts to communicate and explain the results<br><br>Updated the README</td>
   </tr>
   <tr>
-    <td class="tg-0lax">:bear:</td>
+    <td class="tg-0lax">Pierre :bear:</td>
     <td class="tg-0lax">Analyzed the dataset with respect to Questions 2 and 3<br><br>Made the website<br><br>Did the word clustering using NLP and made initial visualizations<br><br>Did the sentiment analysis and made initial visualizations</td>
   </tr>
   <tr>
-    <td class="tg-0lax">:fox_face:</td>
+    <td class="tg-0lax">Sam :fox_face:</td>
     <td class="tg-0lax">Analyzed the dataset with respect to Questions 1 and 3<br><br> Did sentiment analysis and made initial visualizations</td>
   </tr>
 </tbody>
