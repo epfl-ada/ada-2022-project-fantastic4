@@ -57,7 +57,7 @@ We first defined the success of a movie and used both ratings and revenues as it
   </tr>
   <tr>
     <td class="tg-0lax">Sam :fox_face:</td>
-    <td class="tg-0lax">Analyzed the dataset with respect to Questions 1 and 3<br><br>Finished the merge the of the CMU dataset with additional datasets and explored these datasets<br><br> Did sentiment analysis and made initial visualizations</td>
+    <td class="tg-0lax">Analyzed the dataset with respect to Questions 1 and 3<br><br>Finished the merge the of the CMU dataset with additional datasets and explored these datasets</td>
   </tr>
 </tbody>
 </table>
